@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.mix.js",
   "dependencies": {
-    "laravel-mix": "^2.1.11"
+    "laravel-mix": "^2.0"
   },
   "devDependencies": {},
   "scripts": {
