@@ -3,11 +3,16 @@
 
 ### Requisitos
 Para trabajar con laravel mix, es necesario tener instalado [Node.js y NPM](https://nodejs.org/en/)
+Puedes verificar si tienes instalado npm ejecutando este comando: 
+```bash
+npm -v
+```
+Lo que debiese retorar algo como `6.1.0`
 
 ### Instalación
 Bajar el repositorio e instalar laravel mix usando npm 
 ```bash
-git clone git@github.com:freshworkstudio/laravel-mix-base.git mi-proyecto
+git clone https://github.com/freshworkstudio/laravel-mix-base.git mi-proyecto
 cd mi-proyecto
 npm install
 ```
@@ -19,7 +24,7 @@ npm run dev
 #### Recomenmdación GIT
 Para usar esta carpeta como un nuevo repositorio, diferente a esta base, te recomiendo realizar este proceso: 
 ```bash
-rm -fr /.git
+rm -fr .git
 git init
 ```
 De esta forma, eliminamos la información del repositorio que clonamos y creamos un nuevo repositorio donde puedes comenzar a trabajar desde cero con tus propios commits. 
