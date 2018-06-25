@@ -13,9 +13,16 @@ npm install
 ```
 Luego, solo debes ejecutar este comando para compilar
 ```bash
-
 npm run dev
 ```
+
+#### Recomenmdación GIT
+Para usar esta carpeta como un nuevo repositorio, diferente a esta base, te recomiendo realizar este proceso: 
+```bash
+rm -fr /.git
+git init
+```
+De esta forma, eliminamos la información del repositorio que clonamos y creamos un nuevo repositorio donde puedes comenzar a trabajar desde cero con tus propios commits. 
 
 #### Watch
 Para que laravel mix compile automáticamente cuando realizas un cambio en el SASS, puedes correr este comando: 
