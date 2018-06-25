@@ -33,6 +33,8 @@ npm run watch
 #### Estructura
 Si te fijas, el archivo index.html está dentro de la carpeta `/public`. Te recomiendo que sigas esta misma estructura y pongas todos los HTML en esta carpeta. En cambio, todos los archivos fuentes (SASS, Javascript, etc) los coloques fuera de esta carpeta, en este caso dentro de `/src`
 
+En el archivo `webpack.mix.js` está la configuración que le indica a Laravel mix que compilar y en donde. 
+
 #### Recomenmdación GIT
 Para usar esta carpeta como un nuevo repositorio, diferente a esta base, te recomiendo realizar este proceso: 
 ```bash
