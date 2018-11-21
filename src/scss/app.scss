@@ -1,12 +1,4 @@
-body {
-	background: black;
-	font-size: 30px;
-}
+// @import '~bootstrap/scss/bootstrap';
+@import 'general';
 
-.container {
-	background: black;
-
-	p {
-		font-size: 40px;
-	}
-}
+@import 'pages/home';
