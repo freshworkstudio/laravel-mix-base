@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "laravel-mix": "^2.1.11"
+    "laravel-mix": "^2.1.14"
   },
   "scripts": {
     "dev": "npm run development",
